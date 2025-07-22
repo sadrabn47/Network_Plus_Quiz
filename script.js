@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // --- DOM Elements ---
+    const explanationContainer = document.getElementById('explanation-container');
+const explanationText = document.getElementById('explanation-text');
     const themeToggle = document.getElementById('theme-toggle');
     const themeIconLight = document.getElementById('theme-icon-light');
     const themeIconDark = document.getElementById('theme-icon-dark');
@@ -132,6 +134,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const loadQuestion = () => {
         // Reset from previous question
+            explanationContainer.classList.add('hidden'); // <-- ADD THIS LINE
+    selectedAnswers = [];    explanationContainer.classList.add('hidden'); // <-- ADD THIS LINE
+    selectedAnswers = [];
         selectedAnswers = [];
         choicesContainer.innerHTML = '';
         submitAnswerBtn.disabled = true;
@@ -219,6 +224,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         
         saveState();
+        explanationText.textContent = question.explanation;
+        explanationContainer.classList.remove('hidden');
     };
 
     const handleNextQuestion = () => {
@@ -272,14 +279,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 return `<li class="${choiceClass}">${choice}</li>`;
             }).join('');
 
-            reviewBlock.innerHTML = `
+          reviewBlock.innerHTML = `
                 <p class="font-bold mb-2">${index + 1}. ${q.question}</p>
                 <ul class="list-disc list-inside mb-2">
                     ${choicesHtml}
                 </ul>
                 <p class="text-sm">Your answer: <span class="${isCorrect ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'}">${userAnswer.join(', ') || 'Not answered'}</span></p>
                 <p class="text-sm">Correct answer: <span class="text-green-600 dark:text-green-400">${q.answers.join(', ')}</span></p>
-            `;
+                <div class="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
+                    <p class="text-sm font-semibold">Explanation:</p>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">${q.explanation}</p>
+                </div>
+                `;
             reviewContainer.appendChild(reviewBlock);
         });
         
