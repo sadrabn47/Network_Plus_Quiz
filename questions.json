@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Which of the following types of hubs does not regenerate the signal and therefore is not a repeater?",
+    "choices": ["Active hub", "Hybrid hub", "Passive hub", "Switching hub"],
+    "answers": ["Passive hub"]
+  },
+  {
+    "question": "What is the Microsoft term for a peer-to-peer network?",
+    "choices": ["Client-server", "Domain", "Workgroup", "Active Directory"],
+    "answers": ["Workgroup"]
+  },
+  {
+    "question": "Which type of server is responsible for storing files for users on the network?",
+    "choices": ["File and print server", "Web server", "Directory server", "Application server"],
+    "answers": ["File and print server"]
+  },
+  {
+    "question": "What is the well-known port number for the HTTP service?",
+    "choices": ["20", "21", "80", "25"],
+    "answers": ["80"]
+  },
+  {
+    "question": "Which network service is responsible for assigning IP addresses to systems on the network when they boot up?",
+    "choices": ["DNS", "WINS", "DHCP", "Server"],
+    "answers": ["DHCP"]
+  },
+  {
+    "question": "Which protocol is responsible for sending e-mail across the Internet?",
+    "choices": ["POP3", "IMAP4", "HTTP", "SMTP"],
+    "answers": ["SMTP"]
+  },
+  {
+    "question": "Which protocol is responsible for connection-oriented communication?",
+    "choices": ["TCP", "IP", "UDP", "ICMP"],
+    "answers": ["TCP"]
+  },
+  {
+    "question": "Which protocol is responsible for error reporting and status information?",
+    "choices": ["ICMP", "TCP", "UDP", "IP"],
+    "answers": ["ICMP"]
+  },
+  {
+    "question": "Which protocol is responsible for logical addressing and delivery of packets?",
+    "choices": ["ICMP", "TCP", "IP", "UDP"],
+    "answers": ["IP"]
+  },
+  {
+    "question": "Which protocol is defined to use TCP port 23?",
+    "choices": ["Telnet", "FTP", "HTTP", "SMTP"],
+    "answers": ["Telnet"]
+  },
+  {
+    "question": "Which of the following represents an application-layer protocol?",
+    "choices": ["SMTP", "IP", "UDP", "TCP"],
+    "answers": ["SMTP"]
+  },
+  {
+    "question": "Which utility is used to facilitate file transfers between two remote hosts?",
+    "choices": ["FTP", "Telnet", "Ping", "None of the above"],
+    "answers": ["FTP"]
+  },
+  {
+    "question": "Which of the following DHCP settings defines the range of dynamic IP addresses?",
+    "choices": ["Exclusions", "Pool", "Reservations", "Scope options"],
+    "answers": ["Pool"]
+  },
+  {
+    "question": "Which of the following is not a layer in the OSI model?",
+    "choices": ["Physical", "Transport", "Network", "Data transmission"],
+    "answers": ["Data transmission"]
+  },
+  {
+    "question": "Which of the following functions can be performed at layer 6 of the OSI model?",
+    "choices": ["Routing of the message", "Compression", "Encryption", "Converting the message to a format that is understood by the destination"],
+    "answers": ["Compression", "Encryption", "Converting the message to a format that is understood by the destination"]
+  },
+  {
+    "question": "Which layer of the OSI model is responsible for converting the packet to an electrical signal that will be placed on the wire?",
+    "choices": ["Layer 1", "Layer 4", "Layer 3", "Layer 2"],
+    "answers": ["Layer 1"]
+  },
+  {
+    "question": "Which layer of the OSI model does a router run at?",
+    "choices": ["Layer 4", "Layer 1", "Layer 3", "Layer 2"],
+    "answers": ["Layer 3"]
+  },
+  {
+    "question": "Which of the following layers does a gateway run at?",
+    "choices": ["Layer 4", "Layer 1", "Layer 5", "All layers"],
+    "answers": ["All layers"]
+  },
+  {
+    "question": "Which layer of the OSI model does the IP protocol run at?",
+    "choices": ["Layer 2", "Layer 3", "Layer 4", "Layer 5"],
+    "answers": ["Layer 3"]
+  },
+  {
+    "question": "Which of the following describes the function of Layer 3 of the OSI model?",
+    "choices": ["It provides sequencing and acknowledgments for connection-oriented communication.", "It provides connectionless communication using logical addressing.", "It provides error detection through the FCS for frames transmitted.", "It provides encryption and compression for data received."],
+    "answers": ["It provides connectionless communication using logical addressing."]
+  },
+  {
+    "question": "Which of the following statements about the OSI model is true?",
+    "choices": ["The application layer does not need to know what type of network is being used because that is dealt with by a layer below it.", "The network layer deals with the network cabling and network device interface compatibility.", "The transport layer deals with how the data is transported from one router to another based on the IP header.", "The model consists of four layers that describe the requirements a technician follows to troubleshoot and support a network."],
+    "answers": ["The application layer does not need to know what type of network is being used because that is dealt with by a layer below it."]
+  },
+  {
+    "question": "Which of the following protocols are layer-3 protocols?",
+    "choices": ["ICMP", "TCP", "IP", "UDP"],
+    "answers": ["ICMP", "IP"]
+  },
+  {
+    "question": "Your team is troubleshooting connectivity issues, and your coworker has asked you what the layer-2 address of one of the laptops on the network is. Which of the following addresses would you give?",
+    "choices": ["COMPUTER1", "00-02-3F-6B-25-13", "192.168.3.200", "www.gleneclarke.com"],
+    "answers": ["00-02-3F-6B-25-13"]
+  },
+  {
+    "question": "Which of the following protocols are transport-layer protocols?",
+    "choices": ["ICMP", "TCP", "IP", "UDP"],
+    "answers": ["TCP", "UDP"]
+  },
+  {
+    "question": "You need to configure one of the routers in the office with a layer-3 address. Which of the following addresses would you use?",
+    "choices": ["COMPUTER1", "00-02-3F-6B-25-13", "192.168.3.200", "www.gleneclarke.com"],
+    "answers": ["192.168.3.200"]
+  },
+  {
+    "question": "Which of the following protocols are layer-4 protocols?",
+    "choices": ["TCP", "IP", "ARP", "UDP"],
+    "answers": ["TCP", "UDP"]
+  },
+  {
+    "question": "Which protocol is responsible for converting the IP address to a MAC address?",
+    "choices": ["IP", "TCP", "ARP", "ICMP"],
+    "answers": ["ARP"]
+  },
+  {
+    "question": "Which dynamic routing protocol is a distance vector protocol?",
+    "choices": ["OSPF", "DIP", "RIP", "NIP"],
+    "answers": ["RIP"]
+  },
+  {
+    "question": "Which dynamic routing protocol monitors the state of the links?",
+    "choices": ["OSPF", "SIP", "RIP", "SLIP"],
+    "answers": ["OSPF"]
+  },
+  {
+    "question": "What type of NAT allows a number of internal systems to use the same public IP address?",
+    "choices": ["Static NAT", "SNAT", "TNAT", "NAT overloading"],
+    "answers": ["NAT overloading"]
+  },
+  {
+    "question": "What mechanism does NAT use to allow multiple systems on the network to use the same public IP address when connecting to the Internet?",
+    "choices": ["SNAT", "PAT", "TNAT", "JNAT"],
+    "answers": ["PAT"]
+  },
+  {
+    "question": "What type of NAT involves having a single public IP address mapped to a single private address?",
+    "choices": ["Static NAT", "PAT", "TNAT", "NAT overloading"],
+    "answers": ["Static NAT"]
+  },
+  {
+    "question": "Router A learns the same route from two different neighbors, one of the neighbor routers is an OSPF neighbor and the other is an EIGRP neighbor. What is the administrative distance of the route that will be installed in the routing table?",
+    "choices": ["20", "90", "110", "115"],
+    "answers": ["90"]
+  },
+  {
+    "question": "Which utility can be used to display and modify the table that maintains the TCP/IP address-to-MAC address translation?",
+    "choices": ["NBTSTAT", "Telnet", "ARP", "SNMP"],
+    "answers": ["ARP"]
+  },
+  {
+    "question": "How many bits in an IP address?",
+    "choices": ["8 bits", "32 bits", "48 bits", "96 bits"],
+    "answers": ["32 bits"]
+  },
+  {
+    "question": "How many octets in an IP address?",
+    "choices": ["1", "2", "3", "4"],
+    "answers": ["4"]
+  },
+  {
+    "question": "A computer with a subnet mask of 255.255.255.0 has how many octets for the network ID?",
+    "choices": ["1", "2", "3", "4"],
+    "answers": ["3"]
+  },
+  {
+    "question": "A computer with the IP address of 134.67.89.12 and a subnet mask of 255.255.0.0 is on the same network with which of the following systems?",
+    "choices": ["134.76.89.11", "134.67.112.23", "13.4.67.34", "109.67.45.10"],
+    "answers": ["134.67.112.23"]
+  },
+  {
+    "question": "Which network address class supports 65,534 hosts?",
+    "choices": ["Class A", "Class B", "Class C", "Class D"],
+    "answers": ["Class B"]
+  },
+  {
+    "question": "What is the default subnet mask for a class C network?",
+    "choices": ["255.0.0.0", "225.225.0.0", "255.255.255.0", "225.255.255.255"],
+    "answers": ["255.255.255.0"]
+  },
+  {
+    "question": "Which address is reserved for internal loopback functions?",
+    "choices": ["0.0.0.0", "1.0.0.1", "121.0.0.1", "127.0.0.1"],
+    "answers": ["127.0.0.1"]
+  },
+  {
+    "question": "Which of the following addresses is a private IP address?",
+    "choices": ["10.0.0.34", "191.167.34.5", "172.16.7.99", "12.108.56.7"],
+    "answers": ["10.0.0.34", "172.16.7.99"]
+  },
+  {
+    "question": "What is the subnet mask for 171.103.2.30?",
+    "choices": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.255.255"],
+    "answers": ["255.255.0.0"]
+  },
+  {
+    "question": "You have a network ID of 131.107.0.0 and you would like to subnet your network into six networks. What is your new subnet mask?",
+    "choices": ["255.224.0.0", "255.255.224.0", "255.192.0.0", "255.255.192.0"],
+    "answers": ["255.255.224.0"]
+  },
+  {
+    "question": "You want to divide your network into eight networks. How many bits will you need to take from the host ID portion of the subnet mask?",
+    "choices": ["2", "3", "4", "6"],
+    "answers": ["3"]
+  },
+  {
+    "question": "In binary, how do you calculate the broadcast address of a network range?",
+    "choices": ["All host bits set to 0", "All host bits set to 0, except for the low-order bit", "All host bits set to 1, except for the low-order bit", "All host bits set to 1"],
+    "answers": ["All host bits set to 1"]
+  },
+  {
+    "question": "In binary, how do you calculate the network ID of a network range?",
+    "choices": ["All host bits set to 0", "All host bits set to 0, except for the low-order bit", "All host bits set to 1, except for the low-order bit", "All host bits set to 1"],
+    "answers": ["All host bits set to 0"]
+  },
+  {
+    "question": "The last valid address of a subnet is always:",
+    "choices": ["One more than the broadcast address", "One less than the broadcast address", "One more than the network ID", "One less than the network ID"],
+    "answers": ["One less than the broadcast address"]
+  },
+  {
+    "question": "Which of the following is an example of CIDR notation?",
+    "choices": ["16/10.34.56.78", "10.34.56.78", "10.34.56.0", "10.34.56.78/16"],
+    "answers": ["10.34.56.78/16"]
+  },
+  {
+    "question": "Your router has the IP address of 216.83.11.65/27. You wish to connect a new system on the network. Which of the following addresses would you assign to that new system?",
+    "choices": ["216.83.11.45", "216.83.11.87", "216.83.11.95", "216.83.11.96"],
+    "answers": ["216.83.11.87"]
+  },
+  {
+    "question": "Which of the following would be the MOST efficient subnet mask for a point-to-point link?",
+    "choices": ["/28", "/29", "/31", "/32"],
+    "answers": ["/32"]
+  },
+  {
+    "question": "Which of the following answers lists the dotted-decimal notation (DDN) equivalent of /30?",
+    "choices": ["255.255.255.192", "255.255.255.252", "255.255.255.240", "255.255.254.0"],
+    "answers": ["255.255.255.252"]
+  },
+  {
+    "question": "Which of the following statements is true about classless IP addressing concepts?",
+    "choices": ["Uses a 128-bit IP address", "Applies only for Class A and B networks", "Separates IP addresses into network, subnet, and host parts", "Ignores Class A, B, and C network rules"],
+    "answers": ["Ignores Class A, B, and C network rules"]
+  },
+  {
+    "question": "Which of the following masks, when used as the only mask within a Class B network, would supply enough subnet bits to support 100 subnets?",
+    "choices": ["/24", "255.255.255.252", "/20", "255.255.252.0"],
+    "answers": ["/20", "255.255.252.0"]
+  },
+  {
+    "question": "Which of the following is the resident subnet ID for IP address 10.7.99.133/24?",
+    "choices": ["10.0.0.0", "10.7.0.0", "10.7.99.0", "10.7.99.128"],
+    "answers": ["10.7.99.0"]
+  },
+  {
+    "question": "Which of the following is the resident subnet for IP address 192.168.44.97/30?",
+    "choices": ["192.168.44.0", "192.168.44.64", "192.168.44.96", "192.168.44.128"],
+    "answers": ["192.168.44.96"]
+  },
+  {
+    "question": "Which of the following is the subnet broadcast address for the subnet in which IP address 172.31.77.201/27 resides?",
+    "choices": ["172.31.201.255", "172.31.255.255", "172.31.77.223", "172.31.77.207"],
+    "answers": ["172.31.77.223"]
+  },
+  {
+    "question": "A fellow engineer tells you to configure the DHCP server to lease the last 100 usable IP addresses in subnet 10.1.4.0/23. Which of the following IP addresses could be leased as a result of your new configuration?",
+    "choices": ["10.1.4.156", "10.1.4.254", "10.1.5.200", "10.1.7.200"],
+    "answers": ["10.1.5.200"]
+  },
+  {
+    "question": "A network administrator is configuring the 172.16.40.0/22 network for a new building. Which of the following is the number of hosts that will be supported on this network?",
+    "choices": ["510", "512", "1022", "1024"],
+    "answers": ["1022"]
+  },
+  {
+    "question": "Which wireless mode involves two laptops connecting directly to one another?",
+    "choices": ["Infrastructure mode", "Ad hoc mode", "Laptop mode", "Enterprise mode"],
+    "answers": ["Ad hoc mode"]
+  },
+  {
+    "question": "A company has offices in Halifax and Toronto. Both networks are connected to allow the two locations to communicate. This is considered what type of network?",
+    "choices": ["LAN", "JAN", "MAN", "WAN"],
+    "answers": ["MAN"]
+  },
+  {
+    "question": "The physical layout of computers, cables, and other components on a network is known as what?",
+    "choices": ["Segment", "Backbone", "Topology", "Protocol"],
+    "answers": ["Topology"]
+  },
+  {
+    "question": "Which topology has a centralized location in which all of the cables come together to a central point such that a failure at this point brings down the entire network?",
+    "choices": ["Bus", "Star", "Mesh", "Ring"],
+    "answers": ["Star"]
+  },
+  {
+    "question": "Which topology has a layout in which every workstation or peripheral has a direct connection to every other workstation or peripheral on the network?",
+    "choices": ["Bus", "Star", "Mesh", "Ring"],
+    "answers": ["Mesh"]
+  },
+  {
+    "question": "Which of the following network topologies is primarily used to connect servers to large network disk arrays?",
+    "choices": ["SAN", "MAN", "CAN", "PAN"],
+    "answers": ["SAN"]
+  },
+  {
+    "question": "Which of the following wireless standards does not fall into the Wi-Fi standard?",
+    "choices": ["802.11n", "802.11g", "802.11b", "802.11a"],
+    "answers": ["802.11a"]
+  },
+  {
+    "question": "Which wireless standard runs at 54 Mbps per second at the 2.4 GHz frequency?",
+    "choices": ["802.11n", "802.11a", "802.11g", "802.11b"],
+    "answers": ["802.11g"]
+  },
+  {
+    "question": "Which wireless standard can reach transfer rates of up to 600 Mbps?",
+    "choices": ["802.11n", "802.11a", "802.11g", "802.11b"],
+    "answers": ["802.11n"]
+  },
+  {
+    "question": "Which wireless security protocol changes the key using TKIP?",
+    "choices": ["WEP", "WPA", "WEP2", "WPA5"],
+    "answers": ["WPA"]
+  },
+  {
+    "question": "Which of the following is the name you assign to your wireless network?",
+    "choices": ["MAC address", "Service Set Identifier (SSID)", "WEP key", "IP address"],
+    "answers": ["Service Set Identifier (SSID)"]
+  },
+  {
+    "question": "What should you do with the wireless router to help hide the wireless network from unauthorized users?",
+    "choices": ["Turn it off when it is not being used.", "Enable WEP.", "Disable SSID broadcasting.", "Unplug the network cable from the router."],
+    "answers": ["Disable SSID broadcasting."]
+  },
+  {
+    "question": "Which 802 project standard defines wireless at speeds of 54 Mbps and a frequency range of 2.4 GHz?",
+    "choices": ["802.11a", "802.11b", "802.11c", "802.11g"],
+    "answers": ["802.11g"]
+  },
+  {
+    "question": "A wireless technician needs to deploy a single 802.11 standard that supports both 2.4GHz and 5GHz frequencies with up to 40MHz channel widths. Which of the following wireless standards should the technician configure?",
+    "choices": ["ac", "b", "g", "n"],
+    "answers": ["n"]
+  },
+  {
+    "question": "A network technician is working on a new wireless project. The network manager has a primary requirement of achieving speeds of at least 1 Gbps when connected. Which of the following standards would be appropriate for the technician to implement?",
+    "choices": ["802.11a", "802.11ac", "802.11b", "802.11n"],
+    "answers": ["802.11ac"]
+  },
+  {
+    "question": "Which 802 project standard defines Gigabit Ethernet using fiber-optic cabling?",
+    "choices": ["802.5", "802.3z", "802.3ab", "802.11g"],
+    "answers": ["802.3z"]
+  },
+  {
+    "question": "Which 802 project standard defines Fast Ethernet?",
+    "choices": ["802.3u", "802.3z", "802.3ab", "802.11g"],
+    "answers": ["802.3u"]
+  },
+  {
+    "question": "Which 802 project standard defines 10-Gigabit Ethernet?",
+    "choices": ["802.3z", "802.3ae", "802.3ab", "802.11g"],
+    "answers": ["802.3ae"]
+  },
+  {
+    "question": "What is the maximum distance of CAT 5 UTP cabling?",
+    "choices": ["100 meters", "185 meters", "250 meters", "500 meters"],
+    "answers": ["100 meters"]
+  },
+  {
+    "question": "You wish to install a 100BaseT network. What type of cabling will you use?",
+    "choices": ["CAT 3 UTP", "CAT 5 UTP", "Thinnet", "Fiber-optic"],
+    "answers": ["CAT 5 UTP"]
+  },
+  {
+    "question": "Fiber-optic cabling uses which types of connectors?",
+    "choices": ["SC", "RJ-45", "BNC", "ST"],
+    "answers": ["SC", "ST"]
+  },
+  {
+    "question": "What is the maximum distance of single-mode fiber (SMF)?",
+    "choices": ["300 meters", "500 meters", "2 kilometers", "850 meters"],
+    "answers": ["2 kilometers"]
+  },
+  {
+    "question": "You want to create a crossover cable to connect two systems directly together. Which wires would you have to switch at one end of the cable?",
+    "choices": ["Wires 1 and 2 with wires 3 and 6", "Wires 2 and 3 with wires 6 and 8", "Wires 1 and 2 with wires 3 and 4", "Wires 2 and 3 with wires 3 and 6"],
+    "answers": ["Wires 1 and 2 with wires 3 and 6"]
+  },
+  {
+    "question": "Which network architecture uses single-mode fiber-optic cabling?",
+    "choices": ["1000BaseLX", "1000BaseSX", "1000BaseCX", "1000BaseTX"],
+    "answers": ["1000BaseLX"]
+  },
+  {
+    "question": "Which type of cabling is used in a 10BaseFL network?",
+    "choices": ["STP", "CAT 3 UTP", "Thinnet", "Fiber-optic"],
+    "answers": ["Fiber-optic"]
+  },
+  {
+    "question": "A technician recently ran a new cable over fluorescent lighting. Assuming the technician used the appropriate cables, which of the following connectors should be used to terminate it?",
+    "choices": ["RJ11", "LC", "BNC", "F-type"],
+    "answers": ["LC"]
+  },
+  {
+    "question": "A network technician is installing a network printer in a factory setting. The connection from the switch contains an LC connector, yet the printer only supports an RJ45 connector. Which of the following should the technician use?",
+    "choices": ["Range extender", "Media converter", "Multilayer switch", "Load balancer"],
+    "answers": ["Media converter"]
+  },
+  {
+    "question": "Which Gigabit architecture uses multimode fiber cabling?",
+    "choices": ["1000BaseLX", "1000BaseSX", "1000BaseCX", "1000BaseTX"],
+    "answers": ["1000BaseSX"]
+  },
+  {
+    "question": "Which of the following WAN transmission mediums is the fastest and can travel the longest distance?",
+    "choices": ["Satellite", "Copper", "Wireless", "Fiber"],
+    "answers": ["Fiber"]
+  },
+  {
+    "question": "Which type of device is responsible for connecting dissimilar networking environments together?",
+    "choices": ["Router", "Bridge", "Gateway", "Switch"],
+    "answers": ["Router"]
+  },
+  {
+    "question": "Which networking device is used to block unauthorized traffic from entering the network?",
+    "choices": ["Bridge", "Gateway", "Switch", "Firewall"],
+    "answers": ["Firewall"]
+  },
+  {
+    "question": "You wish to enable the interface on the Cisco router; what command would you use?",
+    "choices": ["Shutdown", "Enable", "Disable", "No shutdown"],
+    "answers": ["No shutdown"]
+  },
+  {
+    "question": "What type of device analyzes packets that attempt to enter the network and then either allows or denies the traffic, based on rules?",
+    "choices": ["Encryption", "Firewall", "Router", "None of the above"],
+    "answers": ["Firewall"]
+  },
+  {
+    "question": "A user believes a work email account has been compromised. A technician discovers that an email seeming to be from the user's bank shares the same origin IP address as the last login to the email account. Which of the following types of attack is described in this scenario?",
+    "choices": ["Spam", "Ransomware", "Man-in-the-middle", "Phishing"],
+    "answers": ["Man-in-the-middle"]
+  },
+  {
+    "question": "What type of attack involves the hacker altering the source address of a packet?",
+    "choices": ["Buffer overflow", "Dictionary attack", "Social engineering attack", "Spoof attack"],
+    "answers": ["Spoof attack"]
+  },
+  {
+    "question": "What type of password attack involves using dictionary words and appending numbers to the end of those words?",
+    "choices": ["Brute-force", "Dictionary", "Hybrid", "Buffer"],
+    "answers": ["Hybrid"]
+  },
+  {
+    "question": "Which of the following symbols indicates that you are in priv exec mode?",
+    "choices": [">", "#", "$", "&"],
+    "answers": ["#"]
+  },
+  {
+    "question": "Which of the following commands would you use to assign an IP address to an interface?",
+    "choices": ["Router(config-if)# ip address 10.0.0.1 255.0.0.0", "Router(config)# ip address 10.0.0.1 255.0.0.0", "Router# ip address 10.0.0.1 255.0.0.0", "Router> ip address 10.0.0.1 255.0.0.0"],
+    "answers": ["Router(config-if)# ip address 10.0.0.1 255.0.0.0"]
+  },
+  {
+    "question": "You want to ensure that the network interface on the router is using full duplex. What command would you use?",
+    "choices": ["Router(config)# duplex full", "Router(config-if)# duplex half", "Router(config-if)# duplex full", "Router(config-if)# full duplex"],
+    "answers": ["Router(config-if)# duplex full"]
+  },
+  {
+    "question": "Which option of IPCONFIG is used to receive a new lease on your IP address?",
+    "choices": ["/all", "/release", "/obtain", "/renew"],
+    "answers": ["/renew"]
+  },
+  {
+    "question": "You are troubleshooting to determine why Sue’s computer cannot connect to the Internet. What command would you type to view all of Sue’s TCP/IP settings in a Windows command prompt?",
+    "choices": ["IPCONFIG", "IPCONFIG /ALL", "IPCONFIG /SHOWITALL", "IPCONFIG /DISPLAYALL"],
+    "answers": ["IPCONFIG /ALL"]
+  }
+]
